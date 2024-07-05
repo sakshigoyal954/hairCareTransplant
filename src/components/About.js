@@ -9,8 +9,8 @@ const About = () => {
         sx={{ justifyContent: "space-between", alignItems: "center" }}
       >
         <Grid item lg={7} md={8} sm={12}>
-          <Box pr={3}>
-            <Typography fontSize={30} fontWeight="bold" color="primary.main">
+          <Box pr={3} data-aos="zoom-in-right">
+            <Typography fontSize={30} fontWeight="bold" color="primary.main" data-aos="fade-right">
               Best Care For Your Good Hairs
             </Typography>
             <Typography
@@ -35,7 +35,7 @@ const About = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item lg={5} md={4} sm={12}>
+        <Grid item lg={5} md={4} sm={12} data-aos="flip-right">
           <Box
             component="img"
             src={abtImg}

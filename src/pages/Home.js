@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../utills/Layout";
 import { Box, Container } from "@mui/material";
 import SubHeader from "../components/SubHeader";
@@ -7,8 +7,15 @@ import bnr2 from "../images/bnr2.jpg";
 import Process from "../components/Process";
 import Services from "../components/Services";
 import Marque from "../components/Marque";
-
+import 'aos/dist/aos.css'; // Import the AOS CSS
+import AOS from 'aos';
 const Home = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 3000, // Adjust the animation duration as needed
+     offset:200,
+    });
+  }, []);
   return (
     <Layout>
       <Box>
@@ -45,7 +52,7 @@ const Home = () => {
           maxWidth: { lg: "lg", xl: "xl", md: "md", sm: "sm", xs: "xs" },
         }}
       >
-        <Box sx={{ textAlign: "center", pb: 2 }}>
+        <Box sx={{ textAlign: "center", pb: 2 }}  data-aos="zoom-out">
           <img
             src={bnr2}
             alt="bottam Image"

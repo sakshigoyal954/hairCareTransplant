@@ -6,7 +6,7 @@ import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 const Process = () => {
   return (
     <div>
-      <Box py={3}>
+      <Box py={3} data-aos="fade-left">
         <Typography color={"#DD952B"} fontSize={26} padding={2}>
           How Can Help With Male Hair Transplantation
         </Typography>
@@ -17,15 +17,15 @@ const Process = () => {
         container
         sx={{ justifyContent: "space-between", alignItems: "center" }}
       >
-        <Grid item lg={4} md={6} xs={10}>
+        <Grid item lg={4} md={6} xs={10} data-aos="zoom-in-right">
           <Box
             component="img"
             src={cycle}
             width="100%"
             sx={{ borderRadius: 15 }}
-          />  
+          />
         </Grid>
-        <Grid item lg={7.5} md={6} xs={12}>
+        <Grid item lg={7.5} md={6} xs={12} data-aos="zoom-in-left">
           <Box
             sx={{
               display: "flex",
@@ -33,6 +33,7 @@ const Process = () => {
               flexDirection: "row",
               pt: 2,
             }}
+            data-aos="zoom-in"
           >
             <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
             <h3>Hormonal Influences on Male Hair Loss</h3>
@@ -59,6 +60,7 @@ const Process = () => {
               flexDirection: "row",
               pt: 2,
             }}
+            data-aos="zoom-in"
           >
             <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
             <h3>Progression and Diagnosis of Male Pattern Baldness</h3>
@@ -69,7 +71,6 @@ const Process = () => {
             pt={2}
             sx={{ lineHeight: 1.5 }}
             pl={3.5}
-
           >
             Understanding the hormonal influences on hair loss is crucial for
             effective diagnosis and treatment in men. The pattern of hair
@@ -82,7 +83,7 @@ const Process = () => {
         </Grid>
       </Grid>
 
-      <Box py={3} sx={{ textAlign: "end" }}>
+      <Box py={3} sx={{ textAlign: "end" }} data-aos="fade-right">
         <Typography color={"#DD952B"} fontSize={26} padding={2}>
           How Can Help With Female Hair Transplantation
         </Typography>
@@ -92,60 +93,63 @@ const Process = () => {
         container
         sx={{ justifyContent: "space-between", alignItems: "center" }}
       >
-        <Grid item lg={7.5} md={6} xs={12}>
-          <Box
-            sx={{
-              display: "flex",
-              alignItems: "normal",
-              flexDirection: "row",
-              pt: 2,
-            }}
-          >
-            <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
-            <h3>Hair Transplantation as a Solution for Women</h3>
-          </Box>
-          <Typography
-            fontSize={16}
-            textAlign="justify"
-            pt={2}
-            sx={{ lineHeight: 1.5 }}
-            pl={3.5}
-          >
-            Hair transplantation is a viable solution for women experiencing
-            thinning or loss of hair. This procedure can significantly improve
-            hair density and provide a fuller, more natural look. Women seeking
-            to address their hair loss can consider this option to restore their
-            confidence and appearance.
-          </Typography>
-          <Box
-            sx={{
-              display: "flex",
-              alignItems: "normal",
-              flexDirection: "row",
-              pt: 2,
-            }}
-          >
-            <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
+        <Grid item lg={7.5} md={6} xs={12} data-aos="zoom-in-right">
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "normal",
+                flexDirection: "row",
+                pt: 2,
+              }}
+              data-aos="zoom-in"
+            >
+              <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
+              <h3>Hair Transplantation as a Solution for Women</h3>
+            </Box>
+            <Typography
+              fontSize={16}
+              textAlign="justify"
+              pt={2}
+              sx={{ lineHeight: 1.5 }}
+              pl={3.5}
+            >
+              Hair transplantation is a viable solution for women experiencing
+              thinning or loss of hair. This procedure can significantly improve
+              hair density and provide a fuller, more natural look. Women
+              seeking to address their hair loss can consider this option to
+              restore their confidence and appearance.
+            </Typography>
 
-            <h3>Determining the Necessity of a Hair Transplant</h3>
-          </Box>
-          <Typography
-            fontSize={16}
-            textAlign="justify"
-            pt={1}
-            sx={{ lineHeight: 1.5 }}
-            pl={3.5}
-          >
-            Before proceeding with a hair transplant, a thorough examination by
-            a specialist is essential. This evaluation helps to determine if a
-            hair transplant is necessary and appropriate for the individual. The
-            specialist assesses the extent of hair loss, the condition of the
-            scalp, and the overall health of the patient to make an informed
-            decision about the best course of action.
-          </Typography>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "normal",
+                flexDirection: "row",
+                pt: 2,
+              }}
+              data-aos="zoom-in"
+            >
+              <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
+
+              <h3>Determining the Necessity of a Hair Transplant</h3>
+            </Box>
+            <Typography
+              fontSize={16}
+              textAlign="justify"
+              pt={1}
+              sx={{ lineHeight: 1.5 }}
+              pl={3.5}
+            >
+              Before proceeding with a hair transplant, a thorough examination
+              by a specialist is essential. This evaluation helps to determine
+              if a hair transplant is necessary and appropriate for the
+              individual. The specialist assesses the extent of hair loss, the
+              condition of the scalp, and the overall health of the patient to
+              make an informed decision about the best course of action.
+            </Typography>
         </Grid>
 
-        <Grid item lg={4} md={6} xs={10}>
+        <Grid item lg={4} md={6} xs={10} data-aos="zoom-in-left">
           <Box
             component="img"
             src={cycle1}

@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div>
       <div>
-        <Box py={3}>
+        <Box py={3} data-aos="fade-left">
           <Typography color={"#DD952B"} fontSize={26} padding={2}>
             Eyebrow Hair Transplant & Microblading
           </Typography>
@@ -18,7 +18,7 @@ const Services = () => {
           container
           sx={{ justifyContent: "space-between", alignItems: "center" }}
         >
-          <Grid item lg={4} md={6} xs={10}>
+          <Grid item lg={4} md={6} xs={10} data-aos="zoom-in-right">
             <Box
               component="img"
               src={eye}
@@ -26,7 +26,7 @@ const Services = () => {
               sx={{ borderRadius: 15 }}
             />
           </Grid>
-          <Grid item lg={7.5} md={6} xs={12}>
+          <Grid item lg={7.5} md={6} xs={12} data-aos="zoom-in-right">
             <Box
               sx={{
                 display: "flex",
@@ -34,6 +34,7 @@ const Services = () => {
                 flexDirection: "row",
                 pt: 2,
               }}
+              data-aos="zoom-in"
             >
               <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
               <h3>Microblading</h3>
@@ -57,6 +58,7 @@ const Services = () => {
                 flexDirection: "row",
                 pt: 2,
               }}
+              data-aos="zoom-in"
             >
               <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
               <h3>Eyebrow Designing</h3>
@@ -80,6 +82,7 @@ const Services = () => {
                 flexDirection: "row",
                 pt: 2,
               }}
+              data-aos="zoom-in"
             >
               <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
               <h3>Eyebrow Restoration Technique</h3>
@@ -102,7 +105,7 @@ const Services = () => {
 
       <div>
         <Box py={3} sx={{ textAlign: "end" }}>
-          <Typography color={"#DD952B"} fontSize={26} padding={2}>
+          <Typography color={"#DD952B"} fontSize={26} padding={2} data-aos="zoom-in-left">
             Body Hair Transplant
           </Typography>
           <Divider style={{ backgroundColor: "#DD952B" }} />
@@ -111,7 +114,7 @@ const Services = () => {
           container
           sx={{ justifyContent: "space-between", alignItems: "center" }}
         >
-          <Grid item lg={7.5} md={6} xs={12}>
+          <Grid item lg={7.5} md={6} xs={12}  data-aos="zoom-in-right">
             <Box
               sx={{
                 display: "flex",
@@ -119,6 +122,7 @@ const Services = () => {
                 flexDirection: "row",
                 pt: 2,
               }}
+              data-aos="zoom-in"
             >
               <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
               <h3>Beard Hair</h3>
@@ -141,6 +145,7 @@ const Services = () => {
                 flexDirection: "row",
                 pt: 2,
               }}
+              data-aos="zoom-in"
             >
               <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
               <h3>Last-Resort Body Hair Transplants</h3>
@@ -162,6 +167,7 @@ const Services = () => {
                 flexDirection: "row",
                 pt: 2,
               }}
+              data-aos="zoom-in"
             >
               <ArrowCircleRightIcon sx={{ color: "#DD952B", pr: 1 }} />
 
@@ -182,7 +188,7 @@ const Services = () => {
             </Typography>
           </Grid>
 
-          <Grid item lg={4} md={6} xs={10}>
+          <Grid item lg={4} md={6} xs={10} data-aos="zoom-in-left">
             <Box
               component="img"
               src={body}

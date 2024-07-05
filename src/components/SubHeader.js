@@ -33,7 +33,7 @@ const SubHeader = () => {
       </Box>
 
       {/* Container for the image */}
-      <Box sx={{ textAlign: "center", pb: 2 }}>
+      <Box sx={{ textAlign: "center", pb: 2 }} data-aos="zoom-in">
         <img src={headImg} alt="Header Image" style={{borderRadius:"50px"}} width="100%" />
       </Box>
     </>
